@@ -1,0 +1,40 @@
+{
+  "name": "repository-template-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint src/*",
+    "lint:fix": "eslint --fix src/*",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest --verbose",
+    "prepublishOnly": "echo \"Do not run publish directly, run tsc-publish\" && exit 1",
+    "tsc-publish": "tsc-publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasterOdin/repository-template-typescript.git"
+  },
+  "author": "Matthew Peveler <matt.peveler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasterOdin/repository-template-typescript/issues"
+  },
+  "homepage": "https://github.com/MasterOdin/repository-template-typescript#readme",
+  "dependencies": {
+    "@types/node": "^12.12.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.21",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "codecov": "^3.6.1",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "tsc-publish": "^0.5.1",
+    "typescript": "^3.6.4"
+  }
+}
