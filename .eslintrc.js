@@ -14,6 +14,7 @@ module.exports = {
     "@typescript-eslint/brace-style": ["error", "stroustrup"],
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/indent": ["error", 2],
-    "@typescript-eslint/semi": ["error"]
+    "@typescript-eslint/semi": ["error"],
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }

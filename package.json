@@ -1,6 +1,6 @@
 {
-  "name": "repository-template-typescript",
-  "version": "1.0.0",
+  "name": "yaws-server",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,16 +15,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MasterOdin/repository-template-typescript.git"
+    "url": "git+https://github.com/MasterOdin/yaws-server.git"
   },
   "author": "Matthew Peveler <matt.peveler@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MasterOdin/repository-template-typescript/issues"
+    "url": "https://github.com/MasterOdin/yaws-server/issues"
   },
-  "homepage": "https://github.com/MasterOdin/repository-template-typescript#readme",
+  "homepage": "https://github.com/MasterOdin/yaws-server#readme",
   "dependencies": {
-    "@types/node": "^12.12.3"
+    "@types/node": "^12.12.3",
+    "@types/ws": "^6.0.3",
+    "ws": "^7.2.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.21",
